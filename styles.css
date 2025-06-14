@@ -1,0 +1,129 @@
+/* CSS version PC de Bureau */
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+footer, header, nav, section {
+	display: block;
+}
+
+/*#################################################
+  # couleurs, polices, centrage, bordures, marges #
+  ################################################# */
+
+body {
+	background:url("./files/texture_fond.png");
+	color: #47201b;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+iframe{
+    border-width: 0px;
+}
+a, a:visited {
+  color: #75bc27;
+}
+p {
+  margin: 8px 4px;
+  text-align: justify;
+}
+h1 {
+  font-size: 28px;
+  border: solid #594846;
+  border-width: 2px 0;
+  padding: 4px;
+  text-align: center;
+  font-variant: small-caps;
+}
+h2 {
+  text-align: center;
+  font-variant: small-caps;
+}
+dl {
+  margin: 0 8px;
+}
+dt {
+  font-weight: bold;
+  margin: 8px 16px 8px 0;
+  border-bottom: 1px dashed #7b96bc;
+}
+.intro {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin: 8px;
+  font-weight: bold;
+}
+.navigation {
+  font-size: 18px;
+  background-color:#ae5411;
+  border-bottom: 2px solid #594846;
+}
+.navigation ul li {
+  text-align: center;
+  display: block;
+  float: left;
+  padding: 3px 0;
+}
+.navigation li a {
+  color: #f9f3e9;
+  font-variant: small-caps;
+  text-decoration: none;
+}
+.header p {
+  margin-left: -1000px;
+}
+#points ul {
+  list-style-image: url('./files/point.png');
+  margin: 8px 0 16px 8px;
+  padding-left: 16px;
+}
+#points ul li {
+  margin: 8px 16px;
+}
+.footer {
+  background-color: #ae5411;
+  color: #fff2d4;
+  margin:12px; 
+  padding:12px; 
+  font-style: italic;
+}
+
+/* ###################################################
+   #		         STRUCTURE                       #
+   ################################################### */
+   
+body, .header, .navigation, .footer {
+  width: 960px;
+}
+.header, .navigation, .footer {
+  clear: both;
+}
+.colonne {
+  margin: 10px 10px 0 0;
+}
+.navigation {
+  min-height: 25px;
+}
+.navigation ul li {
+  width: 320px; /* 960/3 */
+}
+.header {
+  background:url('./files/kfe_logo.png') no-repeat center;
+  height: 200px;
+}
+#visit {
+  width: 240px;
+  float: left;
+}
+#points {
+  width: 240px;
+  float: right;
+}
+#main {
+  margin: 10px 260px 0 250px;
+  width: 460px;
+}
