@@ -178,6 +178,10 @@ body, .header, .navigation, .footer {
   .intro {
     font-style: italic;
   }
+
+  #main br {
+    display: none;
+  }
 }
 
 /* ========================
